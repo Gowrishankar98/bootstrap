@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+	<title>Layout</title>
+</head>
+
+<style>
+	body{
+		background-color: #F8E3FF;
+	}
+	.fa{
+		font-size: 50px;
+		text-decoration: none;
+	}
+	.col-sm-4{
+		background-color: #BBF1CA;
+	}
+</style>
+<body>
+	<div class="p-4 bg-success text-white text-center">
+		<h1>GS Web</h1>
+		<p>This is Gowrishankar's Website</p> 
+	</div>
+	<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+		<div class="container-fluid">
+			<ul class="navbar-nav w-100 justify-content-between">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#">Signup</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container mt-5 border">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" style="width: 300px;">
+					<img src="card.jpg" class="card-img-top" style="width: 100%;">
+					<div class="card-body">
+						<h3 class="card-title">Gowrishankar K</h3>
+						<h4 class="card-text">Trainee at Archents IT India Pvt Ltd,Hyderabad</h4>
+						<a href="#" class="btn btn-primary">See Profile</a>
+					</div>
+				</div>
+				<h2>Follow me</h2>
+				<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+				
+				<a href="https://www.instagram.com" class="fa fa-instagram p-3" target="_blank"></a>
+				
+				<a href="https://www.twitter.com" class="fa fa-twitter p-3" target="_blank"></a>
+				
+				<a href="https://www.linkedin.com" class="fa fa-linkedin p-3" target="_blank"></a>
+				
+				<a href="https://www.youtube.com" class="fa fa-youtube-play p-3" target="_blank"></a>
+			</div>
+			<div class="col-sm-8 bg-info">
+				<div class="jumbotron d-flex align-items-center min-vh-100">
+					<div class="container mt-3  bg-light border border-dark" style="width: 400px;">
+						<h2 class="text-center">Login Form</h2>
+						<form action="/action_page.php" class="needs-validation">
+							<div class="mb-3 mt-3">
+								<label for="email">Email:</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+							</div>
+							<div class="mb-3">
+								<label for="pwd">Password:</label>
+								<input type="password" class="form-control validate" id="pwd" placeholder="Enter password" name="pswd"required>
+							</div>
+							<div class="form-check mb-3">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" name="remember"> Remember me
+								</label>
+							</div>
+							<button type="submit" class="btn btn-primary mb-3">Login</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mt-5 p-4 bg-warning text-white text-center">
+		<p>Footer</p>
+	</div>
+
+</body>
+</html>
